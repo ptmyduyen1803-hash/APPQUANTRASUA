@@ -222,4 +222,3 @@ if st.session_state.get("invoice_paid") and st.session_state.cart:
             st.session_state.cart = []
             st.session_state.invoice_paid = False
             st.rerun()
-
